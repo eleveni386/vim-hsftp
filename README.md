@@ -1,7 +1,7 @@
 vim-hsftp
 =========
 
-Vim: Upload and download files through sftp
+Vim: Upload and download files through sftp  ( change use scp)
 
 Usage:
 ------
@@ -16,6 +16,7 @@ The config file should be structured like this (amount of spaces doesn't matter)
     pass   test123
     port   22
     remote /var/www/
+    IdentityFile ~/.ssh/id_rsa
     confirm_download 0
     confirm_upload 0
 
